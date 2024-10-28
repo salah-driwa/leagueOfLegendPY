@@ -55,6 +55,33 @@ The scraped data includes:
    - The final data is saved in a `champions_data.json` file and **downloaded automatically** if using Google Colab.
 
 ---
+##Example Data Format
+
+{
+    "name": "Aatrox",
+    "subname": "the Darkin Blade",
+    "description": "Once honored defenders of Shurima against the Void, Aatrox and his brethren would eventually become an even greater threat to Runeterra, and were defeated only by cunning mortal sorcery...",
+    "role": "Fighter",
+    "difficulty": "Medium",
+    "abilities": [
+        {
+            "name": "Deathbringer Stance",
+            "image": "https://ddragon.leagueoflegends.com/cdn/14.19.1/img/passive/Aatrox_Passive.png"
+        },
+        {
+            "name": "The Darkin Blade",
+            "image": "https://ddragon.leagueoflegends.com/cdn/14.19.1/img/spell/AatroxQ.png"
+        },
+        ...
+    ],
+    "skins": [
+        {
+            "name": "Aatrox",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg"
+        },
+        ...
+    ]
+}
 
 ## Setup and Usage  
 
